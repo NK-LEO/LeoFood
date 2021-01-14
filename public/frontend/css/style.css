@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* body {
+    background-color: #f5f5f5;
+} */
+
+body .btn:focus,
+body .form-control:focus {
+    box-shadow: none;
+}
+
+/*--header--*/
+/*#1*/
+#back-top {
+    background-color: #333333;
+    padding: 5px 0px;
+    color: white;
+}
+
+#back-top .container #right {
+    text-align: right;
+}
+
+#back-top a:hover {
+    text-decoration: none;
+    color: #f9694e;
+}
+
+/* #2 */
+#col-header-II {
+    text-align: center;
+}
+
+#col-header-I img {
+    width: 80%;
+    height: 40px;
+    margin-top: 15px;
+}
+
+#col-header-II ul {
+    font-size: 18px;
+}
+
+#col-header-II .nav-item {
+    padding: 3px 10px;
+}
+
+#col-header-II .nav-item a {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#tim-kiem input[type="text"] {
+    margin-right: -5px;
+    /* width: 75%; */
+    width: 450px;
+    padding: 4px 10px;
+    outline: none;
+    border: 1px solid black;
+    border-right: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+#tim-kiem input[type="submit"] {
+    width: 15%;
+    background-color: #f9694e;
+    border: none;
+    padding: 5px;
+    color: white;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#col-header-III {
+    padding: 45px 0 0 0;
+}
+
+#col-header-III a {
+    background-color: #6db961;
+    color: black;
+    padding: 4px;
+    font-size: 16px;
+}
+
+#col-header-III a:hover {
+    text-decoration: none;
+}
+
+/* listproduct */
+/* #1 */
+.danhmuc {
+    list-style-type: none;
+    background-color: #3d3d3d;
+    height: 328px;
+    padding: 0px;
+    color: #dddddd;
+}
+
+.danhmuc li {
+    padding: 12.1px 17px;
+    border-bottom: 1px solid grey;
+    font-size: 14px;
+}
+
+.danhmuc li:hover {
+    color: #f9694e;
+}
+
+.danhmuc #danhmuc-li-I {
+    background-color: #f9694e;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    height: 53px;
+}
+
+.danhmuc #danhmuccon {
+    height: 276px;
+    overflow: auto;
+}
+
+.danhmuc #danhmuccon .tag-a {
+    text-decoration: none;
+    color: white;
+}
+
+.danhmuc #danhmuccon::-webkit-scrollbar {
+    width: 0px;
+}
+
+#slides ol li {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+}
+
+#slides img {
+    height: 328px;
+}
+
+/* #2 */
+#text {
+    text-align: center;
+    background-color: #6db961;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*#3*/
+#btn-back-top {
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    background-color: #f9694e;
+    color: white;
+    padding: 4px 12px;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+/*--giohang--*/
+/*#1*/
+#ProductInCart {
+    background-color: white;
+    /* border-radius: 4px; */
+    padding: 10px 10px 20px 10px;
+}
+
+/* #ProductInCart .row {
+    background-color: #f5f5f5;
+} */
+
+#ProductInCart .row img {
+    width: 100%;
+    height: 80px;
+    border-radius: 5px;
+}
+
+#ProductInCart .row #text-leo {
+    color: blue;
+}
+
+#ProductInCart .row #text-food {
+    color: red;
+}
+
+#ProductInCart .row #text-giaohang30p {
+    color: green;
+}
+
+#ProductInCart .row #btn-xoa {
+    margin-top: 10px;
+    font-size: 10px;
+    padding: 3px 20px;
+}
+
+#ProductInCart .row #text-gia {
+    font-weight: bold;
+}
+
+/*#2*/
+.frame-payment {
+    background-color: white;
+    /* border-radius: 4px; */
+    padding: 15px 10px;
+}
+
+.payment {
+    width: 49%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.price {
+    text-align: right;
+}
+
+.price-all {
+    text-align: right;
+    color: red;
+    font-size: 20px;
+}
+
+/* thongTinCaNhan */
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.btnImg {
+    border: 2px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 5px 30px;
+    border-radius: 3px;
+}
+
+.upload-btn-wrapper input[type="file"] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+/* gioiThieu */
+.content-goi-thieu {
+    border: 5px solid #f0f4f7;
+}
+
+.content-goi-thieu .card {
+    border: none;
+}
+
+.content-goi-thieu .card .img-left-right {
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.content-goi-thieu .card .img-center {
+    margin: 20px auto;
+    width: 300px;
+    height: 300px;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.content-goi-thieu .card label {
+    border: 3px solid #f0f4f7;
+}
+
+.content-goi-thieu .card h5 {
+    text-align: center;
+}
+
+/*--footer--*/
+/*#1*/
+#ul-colALL {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+#ul-colALL #li-I {
+    background-color: #3a3a3a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+}
+
+#ul-colALL #li-I span {
+    margin-right: 50px;
+}
+
+#ul-colALL #li-I input[type="email"] {
+    margin-right: -4px;
+    width: 300px;
+    padding: 8px 10px;
+    outline: none;
+    border: 1px solid #3a3a3a;
+    border-right: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+#ul-colALL #li-I input[type="submit"] {
+    width: 100px;
+    background-color: #f9694e;
+    border: none;
+    padding: 8.5px;
+    color: white;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-weight: bold;
+}
+
+#ul-colALL #li-II {
+    background-color: #333333;
+}
+
+#ul-colALL #li-II #content {
+    padding: 10px 50px;
+    color: #dddddd;
+    font-size: 14px;
+}
+
+#ul-colALL #li-II #content #col-footer-I {
+    text-align: center;
+}
+
+#ul-colALL #li-II #content #col-footer-II {
+    margin-top: 50px;
+    padding-left: 60px;
+}
+
+#ul-colALL #li-II #content #col-footer-II table tr td {
+    color: #dddddd;
+}
+
+#ul-colALL #li-II #content #col-footer-II i {
+    font-size: 25px;
+}
+
+#ul-colALL #li-II #content #col-footer-III,
+#ul-colALL #li-II #content #col-footer-IV {
+    margin-top: 50px;
+}
+
+.text-LH-TT-LF {
+    color: #f9694e;
+    font-weight: bold;
+}
+
+#ul-colALL #li-II #content #copyright {
+    text-align: center;
+    border-top: 1px solid grey;
+    padding: 20px 0 10px 0;
+}
+
+/* #2 */
+#icon-admin {
+    position: fixed;
+    left: 5px;
+    bottom: 45%;
+}
+
+#icon-admin img {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+#icon-admin span {
+    position: absolute;
+    width: 70px;
+    top: -2px;
+    left: 60px;
+}
